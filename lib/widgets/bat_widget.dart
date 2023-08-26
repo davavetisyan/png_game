@@ -11,7 +11,10 @@ class BatWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.blue,
+      decoration: BoxDecoration(
+        color: Colors.green[800],
+        borderRadius: BorderRadius.circular(30)
+      ),
       height: bat.height,
       width: bat.width,
     );

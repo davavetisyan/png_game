@@ -16,7 +16,7 @@ class BallWidget extends StatelessWidget {
       height: model.diameter,
       width: model.diameter,
       decoration: const BoxDecoration(
-        color: Colors.red,
+        color: Colors.deepPurple,
         shape: BoxShape.circle,
       ),
     );
